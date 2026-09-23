@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamara's Favorite Books</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container-page">
+
+        <div class="nav-bar">
+           <img class="logo" src="images\book.png">
+            <div class="title">Tamara's Favorite Books</div>
+        </div>
+
+        <div class="book-list">
+            <div class="book-row">
+                <div class="book-item">
+                    <img src="images\Hunger-Games.jpg" alt="The Hunger Games" class="book-cover-image">
+                    <button class="book-btn" data-book="The-Hunger-Games">Learn More</button>
+                </div>
+                <div class="book-item">
+                    <img src="images\Scythe.jpg" alt="Scythe" class="book-cover-image">
+                    <button class="book-btn" data-book="Scythe">Learn More</button>
+                </div>
+                <div class="book-item">
+                    <img src="images\Spy-School.jpg" alt="Spy School" class="book-cover-image">
+                    <button class="book-btn" data-book="Spy-School">Learn More</button>
+                </div>
+
+            </div>
+        </div>
+
+    <section class="description-page hidden" data-book-page="Scythe">
+        <button class="back-button" >Back to Books</button>
+        <article class="Scythe-description-card description-card">
+            <h1>Scythe</h1>
+            <p>Scythe is a dystopian science fiction novel written by Neil Shusterman.</p>
+        </article>
+    </section>
+
+    <section class="description-page hidden" data-book-page="The-Hunger-Games">
+        <button class="back-button" >Back to Books</button>
+        <article class="The-Hunger-Games-description-card description-card">
+            <h1>The Hunger Games</h1>
+            <p>The Hunger Games is a dystopian fiction novel written by Suzanne Collins.</p>
+        </article>
+    </section>
+
+    <section class="description-page hidden" data-book-page="Spy-School">
+        <button class="back-button" >Back to Books</button>
+        <article class="Spy-School-description-card description-card">
+            <h1>Spy School</h1>
+            <p>Spy School is a fiction novel written by Stuart Gibbs.</p>
+        </article>
+    </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

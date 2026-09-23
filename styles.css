@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #e9dff7;
+}
+
+.container-page {
+    width: 100%;
+}
+
+.nav-bar {
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+    color: #000000;
+    padding: 16px 20px; 
+    margin: 0 0 50px;
+}
+
+.logo {
+    width: 56px;
+    height: 56px;
+   }
+
+.title {
+    color: #ffffff;
+    font-size: 2.6rem;
+}
+
+.book-list  {
+    display: block;
+}
+
+.book-row  {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    margin-bottom: 18px;
+    justify-content: center;
+}
+
+.book-item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-self: center;
+    width: 50%;
+}
+
+.book-cover-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.book-btn {
+   min-height: 52px;
+   border: 2px solid #1b1b1b;
+   border-radius: 12px;
+   background: #f9f6f4;
+   color: #1b1b1b;
+   font-size: 16px;
+   font-weight: 600;
+   cursor: pointer;
+}
+
+.description-page {
+    max-width: 760px;
+    padding: 20px 20px 30px;
+    border-radius: 18px;
+}
+
+.description-card  {
+    width: 100%;
+    color: #ffffff;
+    border: 2px solid #1b1b1b;
+    border-radius: 14px;
+    padding: 28px 20px;
+}
+
+.Scythe-description-card {
+    background: #f6f0c8;
+    color: #000000;
+}
+
+.The-Hunger-Games-description-card {
+    background: #2b2c2c;
+}
+
+.Spy-School-description-card {
+    background: #40a2f7;
+}
+
+.description-card h1{
+    margin: 0 0 12px;
+    font-size: 32px;
+}
+
+.description-card p {
+    margin: 0;
+    line-height: 1.7;
+    font-size: 16.8px;
+}
+
+.back-button {
+    margin: 0 0 16px;
+    border: 2px solid #1b1b1b;
+    border-radius: 10px;
+    background: #ffffff;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
